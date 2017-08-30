@@ -9,9 +9,9 @@
         ">     
 	<dubbo:application name="demo-hello-provider" />
 	<!-- 使用zookeeper作为注册中心 -->     
-    <dubbo:registry  protocol="zookeeper"  address="88.88.0.69:2181,88.88.0.69:2182,88.88.0.69:2183"  />
-<!--     <dubbo:registry  protocol="zookeeper"  address="88.88.0.69:2184"  /> -->
-   	<dubbo:protocol name="dubbo" port="20880" />     
+<!--     <dubbo:registry  protocol="zookeeper"  address="88.88.0.69:2181,88.88.0.69:2182,88.88.0.69:2183"  /> -->
+    <dubbo:registry  protocol="zookeeper"  address="88.88.0.69:2181"  />
+   	<dubbo:protocol name="dubbo" port="20881" />     
 	<dubbo:service interface="com.dubbo.service.HelloService" ref="helloService" />
 	<bean id="helloService" class="com.dubbo.service.impl.HelloServiceImpl" />
 </beans>
