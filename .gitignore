@@ -9,12 +9,12 @@ target/
 *.log
 *.project
 *.classpath
-/demo-dubbo-cliet/.settings
-/demo-dubbo-cliet/target/
-/demo-dubbo-provider-hello/.settings
-/demo-dubbo-provider-hello/target/
-/demo-service-hello/.settings
-/demo-service-hello/target/
-/demo-service-impl-hello/.settings
-/demo-service-impl-hello/target/
+demo-dubbo-cliet/.settings
+demo-dubbo-cliet/target/
+demo-dubbo-provider-hello/.settings
+demo-dubbo-provider-hello/target/
+demo-service-hello/.settings
+demo-service-hello/target/
+demo-service-impl-hello/.settings
+demo-service-impl-hello/target/
 
